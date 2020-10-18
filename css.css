@@ -1,0 +1,126 @@
+body {
+	font-family: 'Sarabun', sans-serif;
+	width: 100%;
+	margin: 0;
+	background-color: #003459;
+	color: #00171F;
+}
+
+.content {
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#body_okvir {
+	display: block;
+	padding: 15px 20px;
+	background-color: white;
+}
+
+#header_okvir {
+	display: block;
+	padding: 15px 20px;
+	background-color: #00A7E1;
+	color: white;
+}
+
+#footer_okvir {
+	display: block;
+	padding: 15px 20px;
+	background-color: #003459;
+	color: white;
+}
+
+a:link {
+	color: white;
+	text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+a:active {
+  color: white;
+}
+
+label {
+	margin-top: 5px;
+	margin-bottom: 3px;
+}
+
+textarea {
+	min-height: 10%;
+	min-width: 30%;
+}
+
+input[type=text], input[type=password], input[type=number], select, textarea {
+	width: 30%;
+	padding: 10px;
+	border: 1px solid #007EA7;
+	box-sizing: border-box;
+}
+
+input[type=submit] {
+	margin-top: 10px;
+	border: none;
+	background-color: #007EA7;
+	color: white;
+	padding: 10px;
+	cursor: pointer;
+	width: 15%;
+}
+
+.korisnik_img {
+	height: 70px;
+}
+
+.tablica {
+	margin-top: 15px;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.tablica td, .tablica th {
+	border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.tablica tr:nth-child(even){
+	background-color: #f2f2f2;
+}
+
+.tablica tr:hover {
+	background-color: #ddd;
+}
+
+.tablica th {
+	padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #007EA7;
+  color: white;
+}
+
+a:link.veza {
+	text-decoration:none;
+	color:#003459;
+}
+a:visited.veza {
+	color:#003459;
+}
+a:hover.veza {
+	color: #003459;
+	text-decoration: underline;
+}
+a:active.veza {
+	color:#003459;
+}
+
+.error {color: red}
